@@ -1,6 +1,57 @@
 # understanding-doc
 
 [ Practice 1 ] 
+
+sample web app link after deployed - https://ca-api-ztvvllot3fqc6.yellowcliff-68479396.eastus2.azurecontainerapps.io/
+web app - based on react JS, fluent to create chat like UI, prompt etc..
+backend API - based on python, fast API
+bicep - for environment and resource creation 
+
+"@fluentui-copilot/react-copilot": "0.23.3",
+    "@fluentui-copilot/react-copilot-chat": "0.9.6",
+    "@fluentui-copilot/react-feedback-buttons": "0.9.6",
+then using docker to make it container
+
+Created resource in my azure portal 
+create foundry project => created model gpt 4.1 min inside foundry, no agent etc...
+Tokens per Minute Rate Limit
+80000
+Requests per Minute Rate Limit
+80
+Model guardrails
+Name
+DefaultV2
+
+aoai-ztvvllot3fqc6
+Foundry
+East US 2
+proj-ztvvllot3fqc6 (aoai-ztvvllot3fqc6/proj-ztvvllot3fqc6)
+Foundry project
+East US 2
+appi-ztvvllot3fqc6
+Application Insights
+East US 2
+ca-api-ztvvllot3fqc6
+Container App
+East US 2
+containerapps-env-ztvvllot3fqc6
+Container Apps Environment
+East US 2
+crztvvllot3fqc6
+Container registry
+East US 2
+id-api-ztvvllot3fqc6
+Managed Identity
+East US 2
+log-ztvvllot3fqc6
+Log Analytics workspace
+East US 2
+stztvvllot3fqc6
+Storage account
+East US 2
+
+===
+
 AI bases project
 sample available in MS Foundry portal
 https://github.com/devmadhesiagmail/get-started-with-ai-chat/blob/main/docs/sample_questions.md
