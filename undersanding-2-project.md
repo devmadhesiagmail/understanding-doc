@@ -1,4 +1,16 @@
+===
 https://github.com/devmadhesiagmail/get-started-with-ai-agents
+
+I was able to successfuly provision and run this code base
+Click Open in GitHub Codespaces or Dev Containers button above
+
+By default, agents use OpenAI's file search capability with the documents in the src/files folder. To enable Azure AI Search instead, set the environment variable before the first time of provision and deployment:
+
+azd env set USE_AZURE_AI_SEARCH_SERVICE true
+
+azd up
+====
+
 
 user guide readme
 https://github.com/devmadhesiagmail/get-started-with-ai-agents
@@ -12,8 +24,8 @@ This solution creates a Microsoft Foundry project and Foundry Tools. More detail
 
 Instructions are provided for deployment through GitHub Codespaces, VS Code Dev Containers, and your local development environment.
 
-Solution Architecture
-Architecture diagram showing that user input is provided to the Azure Container App, which contains the app code. With user identity and resource access through managed identity, the input is used to form a response. The input and the Azure monitor are able to use the Azure resources deployed in the solution: Application Insights, Microsoft Foundry Project, Foundry Tools, 
+**Solution Architecture
+**Architecture diagram showing that user input is provided to the Azure Container App, which contains the app code. With user identity and resource access through managed identity, the input is used to form a response. The input and the Azure monitor are able to use the Azure resources deployed in the solution: Application Insights, Microsoft Foundry Project, Foundry Tools, 
 Storage account, Azure Container App, and Log Analytics Workspace.
 
 ===
