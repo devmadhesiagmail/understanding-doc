@@ -7,8 +7,8 @@ Huge Learning
 ===
 https://github.com/devmadhesiagmail/get-started-with-ai-agents
 
-I was able to successfuly provision and run this code base
-Click Open in GitHub Codespaces or Dev Containers button above
+**I was able to successfuly provision and error while loading
+**Click Open in GitHub Codespaces or Dev Containers button above
 
 By default, agents use OpenAI's file search capability with the documents in the src/files folder. To enable Azure AI Search instead, set the environment variable before the first time of provision and deployment:
 
