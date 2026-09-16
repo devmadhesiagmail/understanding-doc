@@ -1,3 +1,9 @@
+Huge Learning
+
+-- using Github for Code repo
+--Github copilot side panel to debug issue
+--fixed many issue using chat panel, simply mention error with details and ask to fix it
+--you can always allows for command 
 ===
 https://github.com/devmadhesiagmail/get-started-with-ai-agents
 
