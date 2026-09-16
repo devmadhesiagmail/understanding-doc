@@ -1,5 +1,29 @@
 # understanding-doc
 
+====
+**GitHub Codespaces** is a cloud-based development environment that lets you write, build, test, and debug code directly from GitHub without installing all project dependencies on your local machine. Each codespace runs in a container on a cloud-hosted virtual machine and can be accessed from a browser, Visual Studio Code, or supported IDEs.
+
+In simple terms
+
+Instead of spending hours setting up:
+
+VS Code extensions
+SDKs and runtimes
+Databases
+Docker containers
+Environment variables
+
+You click"Create Codespace" and GitHub creates a ready-to-use development environment for the repository.
+
+Key Benefits
+Instant onboarding for new developers
+Consistent development environment across the team
+Access from any device with internet access
+Eliminates "works on my machine" problems
+Scalable cloud compute for large projects
+Can run multiple isolated development environments simultaneously
+========
+
 [ Practice 1 ] 
 
 sample web app link after deployed - https://ca-api-ztvvllot3fqc6.yellowcliff-68479396.eastus2.azurecontainerapps.io/
